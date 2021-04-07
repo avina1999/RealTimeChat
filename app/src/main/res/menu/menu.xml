@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/group"
+        android:icon="@drawable/ic_igroups"
+        android:iconTint="@color/white"
+        android:title="Group"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/logOut"
+        android:icon="@drawable/ic_logout"
+        android:title="Logout"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/addGroupParticipent"
+        android:icon="@drawable/ic_add_group"
+        android:title="Add Group Participent"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_groupinfo"
+        android:icon="@drawable/ic_info"
+        android:title="Group info"
+        app:showAsAction="always" />
+</menu>
